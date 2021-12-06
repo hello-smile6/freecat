@@ -4,8 +4,8 @@ The user interface is entirely rendered as regular HTML, backed by Electron
 ```bash
 cd app
 npm install
-cd ..
-./run-linux.sh (or the script depending on platform)
+
+npm run app-linux (or the script depending on platform)
 ```
 # Builds
 [Download Here](https://dl.jaydendev.repl.co/freecat)

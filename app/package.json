@@ -6,7 +6,10 @@
   "scripts": {
     "start": "electron .",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "app-win": "..\\run-win.bat",
+    "app-linux": "../run-linux.sh",
+    "app-mac": "../run-mac.sh"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
